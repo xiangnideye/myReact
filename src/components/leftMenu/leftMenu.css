@@ -1,0 +1,9 @@
+.left-menu {
+  max-width: 250px;
+  background: #F5F7F9;
+  display: flex;
+  height: 100%;
+}
+.left-menu .menu-list {
+  max-height: 709px;
+}
