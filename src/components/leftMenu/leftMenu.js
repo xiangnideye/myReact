@@ -8,7 +8,7 @@ class LeftMenu extends React.Component{
     return (
       <div className = "left-menu" >
         <ul>
-          <li> <Link to="/about"> About </Link></li>
+          <li> <Link to="/"> About </Link></li>
           <li> <Link to="/inbox"> Inbox </Link></li>
         </ul>
         {this.props.children}
