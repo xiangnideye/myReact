@@ -1,8 +1,32 @@
 .left-menu {
-  max-width: 250px;
+  flex: 0 0 auto;
+  width: 250px;
   background: #F5F7F9;
   display: flex;
-  height: 100%;
+  height: 709px;
+  border: 1px solid #E6ECF1;
+  .el-tree {
+    margin-top: 30px;
+    padding-left: 25px;
+    width: 100%;
+    border: none;
+    background-color: #F5F7F9;
+    .el-tree-node {
+      margin-bottom: 5px;
+      color: rgb(92, 105, 117);
+     .el-tree-node__children {
+      .el-tree-node {
+        color: rgb(157, 170, 182)
+      }
+     }
+    }
+  }
+  .el-tree--highlight-current .el-tree-node.is-current>.el-tree-node__content {
+    background-color: #fff; 
+    border: 1px solid #E6ECF1;
+    border-right: none;
+    color: rgb(56, 132, 255);
+  }
   .menu-list {
     max-height: 709px;
   }
