@@ -4,7 +4,7 @@ import './index.css';
 class Index extends Component {
   render () {
     return (
-      <div className="index">index</div>
+      <div className="index">inde1111x</div>
     )
   }
 }
